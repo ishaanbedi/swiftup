@@ -86,11 +86,16 @@ To enable verbose output, you can use the `-v` or `--verbose` flag when running 
 
 For example:
 
-
-
 ```
 swiftup -v
 ```
+
+### Demo
+Check out this short demo of `swiftup` in action:
+
+![My Movie (1)](https://user-images.githubusercontent.com/39641326/208293712-72221e82-9173-4d41-9004-c63d48a499cb.gif)
+
+
 
 ## Note
 Please note that `swiftup` is a tool that only checks the reachability of URLs and does not validate their content or replaces any occurrences of the URL. 
