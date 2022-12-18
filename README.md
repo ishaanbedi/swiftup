@@ -93,9 +93,13 @@ swiftup -v
 ```
 
 ## Note
-This tool only checks the reachability of URLs and does not validate their content, neither replaces any of the occurrences of the URL.
+Please note that `swiftup` is a tool that only checks the reachability of URLs and does not validate their content or replaces any occurrences of the URL. 
 
-For unreachable URLs as reported by `swiftup`, it  of the developer to ensure that the URLs are replaced/corrected and points to the intended resources.
+It is the responsibility of the end-user developer or user to ensure that any unreachable URLs reported by the tool are corrected and points to the intended resources. 
 
+`swiftup` simply provides a way to identify and flag any URLs with possible reasons, that are not reachable, and it is up to the user or developer to take the necessary steps to address any issues arising.
+
+### License
+This project is licensed under the MIT license.
 
 
